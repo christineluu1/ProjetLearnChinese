@@ -1,0 +1,128 @@
+<resources>
+
+
+    <!-- Page d\'inscription'-->
+    <string name="sign_up_page_title">Inscris toi pour suivre ton évolution</string>
+    <string name="sign_up_page_upload_button">Photo de profil</string>·
+    <string name="sign_up_page_name">Nom</string>
+    <string name="sign_up_page_surname">Prénom</string>
+    <string name="sign_up_page_age">Age</string>
+    <string-array name="sign_up_page_level">Niveau
+        <item>Niveau : débutant</item>
+        <item>Niveau : initié</item>
+        <item>Niveau : avancé</item>
+    </string-array>
+    <string name="sign_up_page_mail">Mail</string>
+    <string name="sign_up_page_password">Création du mot de passe</string>
+    <string name="sign_up_page_confirm_button">Confirmer l\'inscription</string>
+
+    <!-- Page de connexion'-->
+    <string name="sign_in_page_title">Se connecter</string>
+    <string name="sign_in_page_mail">Mail</string>
+    <string name="sign_in_page_password">Entrer le mot de passe</string>
+    <string name="sign_in_page_confirm_button">Connexion</string>
+
+    <!-- Menu navigation -->
+    <string name="app_name">Learn Chinese</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_subtitle">Apprenez facilement le chinois !</string>
+    <string name="nav_header_login_title">on met les id ici ?</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Page d\'accueil</string>
+    <string name="menu_about_us">À propos de LearnChinese</string>
+    <string name="menu_course1">Niveau Débutant : HSK 1</string>
+    <string name="menu_course2">Niveau Initié : HSK 2</string>
+    <string name="menu_course3">Niveau Élémentaire : HSK 3</string>
+    <string name="menu_course4">Niveau Intermédiaire : HSK 4</string>
+    <string name="menu_course5">Niveau Courant à l\'oral : HSK 5</string>
+    <string name="menu_course6">Niveau Avancé : HSK 6</string>
+    <string name="menu_faq">Foire aux questions</string>
+
+
+    <!-- Page d'accueil-->
+    <string name="home_text_fragment1">Le HSK n\’a cessé de voir sa popularité augmenter ces dernières années, il est considéré comme le test officiel de mandarin.
+    \nAvoir le HSK aujourd’hui constitue une réelle force pour étudier ou travailler dans le monde chinois.
+    \nD\’où la nécessité de bien préparer ce test en amont.</string>
+    <string name="home_text_fragment2">Vous trouverez ci-dessous l\'accompagnement proposé par Learn Chinese pour augmenter vos chances de réussites à l\'examen</string>
+    <string name="home_text_fragment3">Nos cours : </string>
+    <string name="home_text_fragment4">Accédez à notre foire aux questions \nen cliquant sur l\'image : </string>
+
+
+    <!-- Page de cours1-->
+    <string name="curse_page_title">Apprendre</string>
+    <string name="curse_page_section">Commençons par la base</string>
+    <string name="curse_page_section0">Apprenez les vocabulaires nécessaires pour passer le HSK1. Vous avez une liste de 30 caractères. \nMemorisez-bien afin d\'effectuer les exercices. \nBon courage !</string>
+    <string name="curse_page_section1">Salutations</string>
+    <string name="curse_page_section2">Adjectifs</string>
+    <string name="curse_page_section3">Alimentations</string>
+    <string name="curse_page_section4">Animaux</string>
+    <string name="curse_page_section5">Lieux</string>
+    <string name="curse_page_section6">Objets</string>
+    <string name="curse_page_section7">Personnes</string>
+    <string name="curse_page_section8">Verbes</string>
+    <string name="item_column1">Caractère</string>
+    <string name="item_column2">Pinyin</string>
+    <string name="item_column3">Traduction</string>
+
+
+    <!-- Page exo1 cours1-->
+    <string name="exercise1_title">Exercice 1</string>
+    <string name="exercise1_section">C\'est le moment de s\'entraîner</string>
+    <string name="exercise1_description">Dans ce premier exercice, vous devez identifier un mot et une image comptatible. Il vous suffit de cocher si c\'est vrai ou faux. </string>
+    <string name="exercise1_caractère">Caractère:</string>
+    <string-array name="exercise1_response" >
+        <item>Vrai </item>
+        <item>Faux</item>
+    </string-array>
+
+
+    <!-- Page exo2 cours1-->
+    <string name="exercise2_title">Exercice 2</string>
+    <string name="exercise2_section">Bien joué ! On continue.</string>
+    <string name="exercise2_description">A présent, vous allez cocher le bon caractère à l\image.</string>
+    <string name="exercise2_caractère1_input">Caractère1</string>
+    <string name="exercise2_caractère2_input">Caractère2</string>
+    <string name="exercise2_caractère3_input">Caractère3</string>
+    <string name="exercise2_caractère4_input">Caractère4</string>
+
+    <string-array name="exercise2_response">
+        <item>Vrai </item>
+        <item>Faux</item>
+    </string-array>
+
+
+    <!-- Page exo3 cours1-->
+    <string name="exercise3_title">Exercice 3</string>
+    <string name="exercise3_section">Bravo ! Vous avez réussi à passer les deux précédentes épreuves.</string>
+    <string name="exercise3_description"> Dans ce dernier entrainement, choissisez la bonne signification du caractère chinois.</string>
+    <string name="exercise3_caractère">Caractère</string>
+    <string name="exercise3_caractère1_input">Caractère1</string>
+    <string name="exercise3_caractère2_input">Caractère2</string>
+    <string name="exercise3_caractère3_input">Caractère3</string>
+    <string name="exercise3_caractère4_input">Caractère4</string>
+
+    <string-array name="exercise3_response">
+        <item>@string/exercise3_caractère1_input </item>
+        <item>@string/exercise3_caractère2_input</item>
+        <item>@string/exercise3_caractère3_input</item>
+        <item>@string/exercise3_caractère4_input</item>
+    </string-array>
+
+    <string name="exercise_confirm_button">Confirmer</string>
+
+    <!-- Fenetre pop up de réponse -->
+    <string name="pop_up_exercise_response_correct">Bravo !</string>
+    <string name="pop_up_exercise_response_faux">Dommage, vous avez eu faux.</string>
+    <string name="pop_up_exercise_response_next">Suivant</string>
+
+
+    <!-- to toggle the open close button of the navigation drawer -->
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+
+
+
+</resources>

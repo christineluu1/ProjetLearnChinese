@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.projetlearnchinese.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_about_us"
+        android:name="com.example.projetlearnchinese.ui.fragments.AboutUsFragment"
+        android:label="@string/menu_about_us"
+        tools:layout="@layout/fragment_about_us" />
+
+    <fragment
+        android:id="@+id/nav_course1"
+        android:name="com.example.projetlearnchinese.Cours"
+        android:label="@string/menu_course1"
+        tools:layout="@layout/fragment_course1" />
+
+    <fragment
+        android:id="@+id/nav_course2"
+        android:name="com.example.projetlearnchinese.CoursPrincipal"
+        android:label="@string/menu_course2"
+        tools:layout="@layout/fragment_course2" />
+
+    <fragment
+        android:id="@+id/nav_course3"
+        android:name="com.example.projetlearnchinese.CoursPrincipal"
+        android:label="@string/menu_course3"
+        tools:layout="@layout/fragment_course3" />
+
+    <fragment
+        android:id="@+id/nav_course4"
+        android:name="com.example.projetlearnchinese.CoursPrincipal"
+        android:label="@string/menu_course4"
+        tools:layout="@layout/fragment_course4" />
+
+    <fragment
+        android:id="@+id/nav_course5"
+        android:name="com.example.projetlearnchinese.CoursPrincipal"
+        android:label="@string/menu_course5"
+        tools:layout="@layout/fragment_course5" />
+
+    <fragment
+        android:id="@+id/nav_course6"
+        android:name="com.example.projetlearnchinese.CoursPrincipal"
+        android:label="@string/menu_course6"
+        tools:layout="@layout/fragment_course6" />
+
+    <fragment
+        android:id="@+id/nav_faq"
+        android:name="com.example.projetlearnchinese.ui.fragments.FaqFragment"
+        android:label="@string/menu_faq"
+        tools:layout="@layout/fragment_faq" />
+
+</navigation>

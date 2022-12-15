@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "457018165108",
+    "project_id": "projetlearnchinese",
+    "storage_bucket": "projetlearnchinese.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:457018165108:android:7a5f99a7914ba2c8620e21",
+        "android_client_info": {
+          "package_name": "com.example.projetlearnchinese"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "457018165108-geg0557vlar2enmqfjq7fkfgk3quan96.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-O1NCKcXU6nj8QJk0jj0SID8EcuG4clo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "457018165108-geg0557vlar2enmqfjq7fkfgk3quan96.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

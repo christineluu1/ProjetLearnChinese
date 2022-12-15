@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_about_us"
+            android:icon="@drawable/ic_menu_about_us_foreground"
+            android:title="@string/menu_about_us" />
+        <item
+            android:id="@+id/nav_course1"
+            android:icon="@drawable/ic_menu_course1_foreground"
+            android:title="@string/menu_course1" />
+        <item
+            android:id="@+id/nav_course2"
+            android:icon="@drawable/ic_menu_course2_foreground"
+            android:title="@string/menu_course2" />
+        <item
+            android:id="@+id/nav_course3"
+            android:icon="@drawable/ic_menu_course3_foreground"
+            android:title="@string/menu_course3" />
+        <item
+            android:id="@+id/nav_course4"
+            android:icon="@drawable/ic_menu_course4_foreground"
+            android:title="@string/menu_course4" />
+        <item
+            android:id="@+id/nav_course5"
+            android:icon="@drawable/ic_menu_course5_foreground"
+            android:title="@string/menu_course5" />
+        <item
+            android:id="@+id/nav_course6"
+            android:icon="@drawable/ic_menu_course6_foreground"
+            android:title="@string/menu_course6" />
+        <item
+            android:id="@+id/nav_faq"
+            android:icon="@drawable/ic_menu_faq_foreground"
+            android:title="@string/menu_faq" />
+    </group>
+</menu>
